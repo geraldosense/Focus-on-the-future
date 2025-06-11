@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geraldo Sense</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/components.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header-section">
+            <img src="https://avatars.githubusercontent.com/u/186153287?v=4" alt="Avatar do autor" class="profile-img">
+            <div class="name-container">
+                <h1 class="professional-name">Geraldo Sense</h1>
+            </div>
+        </div>
+        
+        <p class="subtitle">Olá✌️! Eu sou Geraldo Sense, Criador de conteúdo sobre programação e desenvolvimento de páginas web.</p>
+        
+        <div class="features">
+            <div class="feature">
+                <h3>🎯 Foco</h3>
+                <p>Meu foco é gerar valor enquanto desenvolvo, e desenvolver enquanto compartilho.</p>
+            </div>
+            <div class="feature">
+                <h3>💡 Inovação</h3>
+                <p>Do DevTools ao storytelling, inovar é criar experiências no navegador e na mente.</p>
+            </div>
+            <div class="feature">
+                <h3>🚀 Resultados</h3>
+                <p>Faço você sair do "Ctrl+C / Ctrl+V" para o "Ctrl+Eu entendi!".</p>
+            </div>
+        </div>
+        
+        <button class="cta-button" id="aboutMeBtn">Saiba mais...</button>
+        
+        <!-- Botão para revelar o footer -->
+        <div class="footer-reveal-section">
+            <button class="footer-reveal-btn" id="footerRevealBtn">
+                <i class="fas fa-chevron-down"></i>
+                <span>Ver mais informações</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- Modal Sobre Mim -->
+    <div class="modal" id="aboutMeModal">
+        <div class="modal-content about-me-modal">
+            <div class="modal-header">
+                <h2 class="modal-title">Sobre Geraldo Sense</h2>
+                <button class="modal-close" id="closeAboutMe">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="about-me-content">
+                    <!-- História -->
+                    <section class="about-section">
+                        <h3 class="section-title">📖 Minha História</h3>
+                        <div class="section-content">
+                            <p>Olá! Sou Geraldo Sense, sou de origem "Angolana (Cabinda, Zôngolo)", mas atualmente moro em Portugal. Sou apaixonado por tecnologia e desenvolvimento web. Minha jornada na programação começou com a curiosidade de entender como as coisas funcionam na internet.</p>
+                            <p>Minha paixão por tecnologia começou ainda na infância, quando eu desmontava brinquedos só pra ver como funcionavam — e às vezes, até conseguia montar de novo. Desde pequeno, sempre fui curioso sobre como as coisas "acontecem" por trás das telas. Com o tempo, essa curiosidade virou propósito: entender e criar o que move a internet.</p>
+                        </div>
+                    </section>
+
+                    <!-- Gostos e Interesses -->
+                    <section class="about-section">
+                        <h3 class="section-title">❤️ O Que Eu Gosto</h3>
+                        <div class="section-content">
+                            <div class="interests-grid">
+                                <div class="interest-item">
+                                    <span class="interest-icon">💻</span>
+                                    <span class="interest-text">Desenvolvimento Web</span>
+                                </div>
+                                <div class="interest-item">
+                                    <span class="interest-icon">🎨</span>
+                                    <span class="interest-text">Design de Interfaces</span>
+                                </div>
+                                <div class="interest-item">
+                                    <span class="interest-icon">📚</span>
+                                    <span class="interest-text">Compartilhar Conhecimento</span>
+                                </div>
+                                <div class="interest-item">
+                                    <span class="interest-icon">🚀</span>
+                                    <span class="interest-text">Inovação Tecnológica</span>
+                                </div>
+                                <div class="interest-item">
+                                    <span class="interest-icon">🎯</span>
+                                    <span class="interest-text">Resolver Problemas</span>
+                                </div>
+                                <div class="interest-item">
+                                    <span class="interest-icon">🌟</span>
+                                    <span class="interest-text">Criar Experiências</span>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Objetivos e Formação -->
+                    <section class="about-section">
+                        <h3 class="section-title">🎯 Meus Objetivos</h3>
+                        <div class="section-content">
+                            <div class="goals-timeline">
+                                <div class="goal-item">
+                                    <div class="goal-icon">🎓</div>
+                                    <div class="goal-content">
+                                        <h4>Formação Contínua</h4>
+                                        <p>Busco constantemente aprimorar minhas habilidades em desenvolvimento web, explorando novas tecnologias e frameworks.</p>
+                                    </div>
+                                </div>
+                                <div class="goal-item">
+                                    <div class="goal-icon">📖</div>
+                                    <div class="goal-content">
+                                        <h4>Compartilhar Conhecimento</h4>
+                                        <p>Quero criar conteúdo educativo que ajude outros desenvolvedores a evoluir e entender melhor a programação.</p>
+                                    </div>
+                                </div>
+                                <div class="goal-item">
+                                    <div class="goal-icon">🌍</div>
+                                    <div class="goal-content">
+                                        <h4>Impacto Positivo</h4>
+                                        <p>Desenvolver soluções que realmente façam a diferença na vida das pessoas e na comunidade tech.</p>
+                                    </div>
+                                </div>
+                                <div class="goal-item">
+                                    <div class="goal-icon">🚀</div>
+                                    <div class="goal-content">
+                                        <h4>Inovação Constante</h4>
+                                        <p>Explorar fronteiras da tecnologia e criar experiências únicas que inspirem outros desenvolvedores.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Tecnologias -->
+                    <section class="about-section">
+                        <h3 class="section-title">🛠️ Tecnologias</h3>
+                        <div class="section-content">
+                            <div class="tech-stack">
+                                <div class="tech-category">
+                                    <h4>Frontend</h4>
+                                    <div class="tech-tags">
+                                        <span class="tech-tag"> <img align="center" alt="Geraldo_HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+                                        <span class="tech-tag"> <img align="center" alt="Geraldo_CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+                                        <span class="tech-tag"> <img align="center" alt="Geraldo_JS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg">
+                                        <span class="tech-tag">  <img align="center" alt="Geraldo_vscode"height="30" wudth="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg">
+                                    </div>
+                                </div>
+                                <div class="tech-category">
+                                    <h4>Backend</h4>
+                                    <div class="tech-tags">
+                                        <span class="tech-tag">Node.js</span>
+                                        <span class="tech-tag">Python</span>
+                                        <span class="tech-tag">PHP</span>
+                                    </div>
+                                </div>
+                                <div class="tech-category">
+                                    <h4>Ferramentas</h4>
+                                    <div class="tech-tags">
+                                        <span class="tech-tag">Git</span>
+                                        <span class="tech-tag">VS Code</span>
+                                        <span class="tech-tag">Figma</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Contato -->
+                    <section class="about-section">
+                        <h3 class="section-title">📞 Vamos Conversar?</h3>
+                        <div class="section-content">
+                            <p>Estou sempre aberto a novas oportunidades, colaborações e conversas sobre tecnologia. Se você tem um projeto interessante ou quer trocar ideias sobre desenvolvimento, vamos conversar!</p>
+                            <div class="contact-buttons">
+                                <button class="btn btn-primary contact-btn" onclick="window.open('https://github.com/186153287', '_blank')">
+                                    <span>🐙 GitHub</span>
+                                </button>
+                                <button class="btn btn-outline contact-btn" onclick="window.open('mailto:sensegeraldo2@gmail.com')">
+                                    <span>📧 Email</span>
+                                </button>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Profissional (Oculto inicialmente) -->
+    <footer class="footer footer-hidden" id="mainFooter">
+        <div class="footer-content">
+            <div class="footer-section">
+                <div class="footer-brand">
+                    <img src="https://avatars.githubusercontent.com/u/186153287?v=4" alt="Geraldo Sense" class="footer-avatar">
+                    <div class="footer-brand-info">
+                        <h3 class="footer-name">Geraldo Sense</h3>
+                        <p class="footer-description">Desenvolvedor Web & Criador de Conteúdo</p>
+                    </div>
+                </div>
+                <p class="footer-mission">Transformando ideias em experiências digitais únicas e compartilhando conhecimento para inspirar a próxima geração de desenvolvedores.</p>
+            </div>
+
+            <div class="footer-section">
+                <h4 class="footer-title">Links Rápidos</h4>
+                <ul class="footer-links">
+                    <li><a href="#about" class="footer-link">Sobre Mim</a></li>
+                    <li><a href="#services" class="footer-link">Serviços</a></li>
+                    <li><a href="#portfolio" class="footer-link">Portfolio</a></li>
+                    <li><a href="#contact" class="footer-link">Contato</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h4 class="footer-title">Contato</h4>
+                <div class="footer-contact">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>sensegeraldo2@gmail.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Portugal</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-globe"></i>
+                        <span>sensegeraldo2@gmail.com</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-section">
+                <h4 class="footer-title">Redes Sociais</h4>
+                <div class="social-icons">
+                    <a href="https://github.com/186153287" target="_blank" rel="noopener noreferrer" class="social-icon github">
+                        <i class="fab fa-github"></i>
+                        <span class="social-tooltip">GitHub</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/geraldo-sense" target="_blank" rel="noopener noreferrer" class="social-icon linkedin">
+                        <i class="fab fa-linkedin-in"></i>
+                        <span class="social-tooltip">LinkedIn</span>
+                    </a>
+                    <a href="https://www.youtube.com/@geraldosense" target="_blank" rel="noopener noreferrer" class="social-icon youtube">
+                        <i class="fab fa-youtube"></i>
+                        <span class="social-tooltip">YouTube</span>
+                    </a>
+                    <a href="https://www.instagram.com/geraldosense" target="_blank" rel="noopener noreferrer" class="social-icon instagram">
+                        <i class="fab fa-instagram"></i>
+                        <span class="social-tooltip">Instagram</span>
+                    </a>
+                    <a href="https://twitter.com/geraldosense" target="_blank" rel="noopener noreferrer" class="social-icon twitter">
+                        <i class="fab fa-twitter"></i>
+                        <span class="social-tooltip">Twitter</span>
+                    </a>
+                    <a href="https://www.facebook.com/geraldosense" target="_blank" rel="noopener noreferrer" class="social-icon facebook">
+                        <i class="fab fa-facebook-f"></i>
+                        <span class="social-tooltip">Facebook</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="footer-bottom-content">
+                <p class="footer-copyright">
+                    © 2024 Geraldo Sense. Todos os direitos reservados.
+                </p>
+                <div class="footer-legal">
+                    <a href="#privacy" class="footer-legal-link">Política de Privacidade</a>
+                    <a href="#terms" class="footer-legal-link">Termos de Uso</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/utils.js"></script>
+    <script src="js/components.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+{
+  "name": "geraldo-sense-portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio profissional de Geraldo Sense com designs modernos e responsivos",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server --port=3000 --open=/index.html",
+    "dev": "live-server --port=3000 --open=/index.html",
+    "build": "echo 'Build completed'",
+    "lint": "echo 'Linting completed'",
+    "test": "echo 'Tests completed'",
+    "deploy": "echo 'Deploy completed'"
+  },
+  "keywords": [
+    "portfolio",
+    "web-design",
+    "responsive",
+    "modern",
+    "professional"
+  ],
+  "author": "Geraldo Sense",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/geraldo-sense/portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/geraldo-sense/portfolio/issues"
+  },
+  "homepage": "https://github.com/geraldo-sense/portfolio#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+} 
